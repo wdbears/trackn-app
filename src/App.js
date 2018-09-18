@@ -11,8 +11,10 @@ class App extends Component {
           <h1 className="App-title">Tracko App</h1>
         </header>
         <p className="App-intro">
-          An application built to track inventory and sales. TESTING PURPOSES 1
-          2 3
+          {
+            "An application built to track shipments, inventory, restocks and sales."
+          }
+          <p>{"A reseller's best friend."}</p>
         </p>
       </div>
     );
