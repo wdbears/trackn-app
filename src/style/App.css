@@ -1,22 +1,31 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: "Comfortaa", cursive;
 }
 
 .App-logo {
-  height: 80px;
+  height: 90px;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #9575cd;
   height: 150px;
-  padding: 20px;
+  padding: 35px;
   color: white;
+  text-align: left;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 30px;
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 36px;
+  padding: 25px 0px 0px 80px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+}
+
+.App-description {
+  font-size: 28px;
 }
