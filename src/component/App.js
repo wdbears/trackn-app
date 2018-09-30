@@ -9,10 +9,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">t r a c k n</h1>
-        </header>
         <p className="App-intro">
           {"An inventory and sales tracking application..."}
           <p className="App-description">{"and a reseller's best friend."}</p>
