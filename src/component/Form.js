@@ -2,32 +2,36 @@ import React, { Component } from "react";
 import "../style/Form.css";
 
 class Form extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: "" };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+  }
+
+  handleSubmit(event) {
+    window.alert("A name was submitted: " + this.state.value);
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <div className="Form">
-        <table>
-          <thead>
-            <tr>
-              <th>Devs</th>
-              <th>Role</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Ahmad</td>
-              <td>Overlord</td>
-            </tr>
-            <tr>
-              <td>Luis</td>
-              <td>Backboi</td>
-            </tr>
-            <tr>
-              <td>Jarman</td>
-              <td>Funko COOK</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          E-mail:
+          <input
+            type="text"
+            value={this.state.value}
+            onChange={this.handleChange}
+          />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
     );
   }
 }
