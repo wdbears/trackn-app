@@ -4,28 +4,22 @@
 }
 
 .App-logo {
-  height: 90px;
-}
-
-.App-header {
-  background-color: #9575cd;
-  height: 150px;
-  padding: 35px;
-  color: white;
-  text-align: left;
-}
-
-.App-title {
-  font-size: 30px;
+  height: 40px;
+  position: relative;
+  top: 0.3em;
 }
 
 .App-intro {
   font-size: 36px;
-  padding: 25px 0px 0px 60px;
+  padding: 200px;
   font-family: "Josefin Sans", sans-serif;
   font-style: italic;
 }
 
 .App-description {
   font-size: 28px;
+}
+
+.email-submission {
+  text-align: center;
 }

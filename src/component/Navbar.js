@@ -26,25 +26,18 @@ const theme = createMuiTheme({
 // Styling
 const styles = {
   root: {
-    flexGrow: 1,
-    backgroundColor: "#9575cd"
+    flexGrow: 1
   },
   grow: {
     flexGrow: 1,
     fontFamily: "Comfortaa",
-    fontStyle: "normal",
     fontWeight: 600,
     fontSize: "30px",
-    padding: "20px 300px 30px 10px"
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
+    padding: "0px 0px 12px 10px"
   },
   login: {
     fontFamily: "Comfortaa",
-    fontStyle: "normal",
-    fontWeight: 600,
+    fontWeight: 400,
     fontSize: "16px"
   }
 };
