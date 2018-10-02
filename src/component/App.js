@@ -4,6 +4,9 @@ import "../style/App.css";
 import Navbar from "./Navbar";
 import Form from "./Form";
 import Greeting from "./Greeting";
+import InventoryTable from "./InventoryTable";
+import SoldTable from "./SoldTable";
+
 class App extends Component {
   render() {
     return (
@@ -17,6 +20,10 @@ class App extends Component {
             <p className="App-description">{"and a reseller's best friend."}</p>
             </p>
           */}
+        </div>
+        <div className="tables">
+          <InventoryTable />
+          <SoldTable />
         </div>
         <div className="email-submission">
           <p>Sign-up for an update on when trackn is live!</p>

@@ -11,7 +11,7 @@
 
 .App-intro {
   font-size: 36px;
-  padding: 200px;
+  padding: 100px 200px 100px 200px;
   font-family: "Josefin Sans", sans-serif;
   font-style: italic;
 }
@@ -20,6 +20,12 @@
   font-size: 28px;
 }
 
+.tables {
+  position: relative;
+  text-align: center;
+}
+
 .email-submission {
+  margin-top: 100px;
   text-align: center;
 }
