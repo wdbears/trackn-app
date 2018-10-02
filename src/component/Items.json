@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "id": "0",
+      "dateBought": "09/24/18",
+      "company": "Supreme",
+      "category": "T-Shirt",
+      "item": "Mike Hill Tee ",
+      "size": "L",
+      "style": "Blue",
+      "itemCost": "36",
+      "dateSold": "10/30/18",
+      "merchant": "StockX",
+      "soldPrice": "90",
+      "fee": "10",
+      "shipping": "0",
+      "netProfit": "undefined",
+      "notes": "my first sale Rawr xD"
+    }
+  ]
+}
