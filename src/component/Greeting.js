@@ -34,7 +34,7 @@ function Greeting(props) {
           An inventory and sales tracking application...
         </Typography>
         <Typography component="p" className={classes.bottomGreeting}>
-          and a reseller's best friend.
+          and a reseller&#39;s best friend.
         </Typography>
       </Paper>
     </div>
